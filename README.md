@@ -7,11 +7,14 @@ Here you'll find two files (getCCV,getICCV).
 
 CCV : This is the normal Color Coherence Vector
 
-ICCV : This is an Improved Color Coherence Vector by adding max-connected pixels’ spatial information without affecting the performance
+ICCV : This is an Improved Color Coherence Vector by adding max coherent pixels’ spatial information without affecting the performance
 
-Parallel implementation based on this paper : Comparing Images Using Color Coherence Vectors (1996) - http://goo.gl/LkWkbi -
+Parallel implementation based on these papers :
 
-getCCV function takes an image and returns the Color Coherence Vector that describe this Image. 
+  1) Comparing Images Using Color Coherence Vectors (1996) - http://goo.gl/LkWkbi -
+  2) An Improved Color Coherence Vector - http://goo.gl/FjXHje -
+
+getCCV and getICCV function take an image and return the Color Coherence Vector that describe this Image. 
 
 You can compare images using this vector.
 
