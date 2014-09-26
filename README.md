@@ -7,6 +7,7 @@ CCV = getCCV(img, coherentThreshold, numberOfPixels)
 getCCV function takes an image and return the Color Coherence Vector that describe this Image. You can compare images using this vector.
 
 Input:
+
 img : The Image (3-channel Image)
 
 Optional Input:
